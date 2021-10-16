@@ -6,8 +6,8 @@ class User(AbstractUser):
     email = models.CharField('E-mail',max_length=150, unique=True)
 
     #comentar para registrar superusers
-    USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = []
+    #USERNAME_FIELD = 'email'
+    #REQUIRED_FIELDS = []
 
     def __str__(self):
         return f'{self.email}'
