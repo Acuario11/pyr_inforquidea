@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'drf_yasg',
     #
     'applications.user',
-    'applications.orquidea'
+    'applications.orquidea',
+    'applications.vivero',
 ]
 
 MIDDLEWARE = [
